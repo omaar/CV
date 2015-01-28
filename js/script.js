@@ -1,25 +1,25 @@
-(function(){ 
+(function(){
 	var $menu 	 = $("#menu"),
 		$button  = $("#show-menu"),
-		$a 		 = $("#menu ul li a"), 
+		$a 		 = $("#menu ul li a"),
 		$chart 	 = $(".chart");
-		
+
 		$(".submit").attr('disabled', 'disabled');
 
 		function ShowMenu(e){
 			e.preventDefault();
-			$menu.slideToggle(); 
+			$menu.slideToggle();
 		}
 
 		function ShowLink(){
-			$menu.slideToggle(); 
+			$menu.slideToggle();
 		}
 
 		$button.on('click', ShowMenu);
 		$a.on('click', ShowLink);
 		$chart.easyPieChart({
 			easing: 'easeOutBounce',
-			barColor:  '#f39c12',
+			barColor:  '#f1844d',
 			onStep: function(from, to, percent) {
 				$(this.el).find('.percent').text(Math.round(percent));
 			}

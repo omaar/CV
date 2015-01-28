@@ -1,0 +1,11 @@
+commit 29c265a6f585e6a79f94cc8a5ee9bb8c2e5eafcf
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Tue Jan 27 23:50:21 2015 -0600
+
+    Cambio Seccion de contacto
+
+commit 284ff7529984e2c770cee1fe475731ab4ef53136
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Tue Jan 27 23:18:30 2015 -0600
+
+    Subiendo Portafolio

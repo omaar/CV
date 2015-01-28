@@ -120,7 +120,7 @@ header {
 }
 .contact .form-contact .submit {
     background: #e9eeee;
-    border: 2px solid #333;
+    border: 2px solid #e9eeee;
     border-radius: 2px;
     color: #333;
     margin-bottom: .5em;
@@ -240,7 +240,7 @@ input:required:invalid {
     left: 1.5em
 }
 .download {
-    background: #2ecc71;
+    background: #f1844d;
     border: none;
     border-radius: 2px;
     color: #fff;
@@ -316,6 +316,6 @@ input:required:invalid {
         padding: .8em
     }
     .menu ul li a:hover {
-        color: #2980b9;
+        color: #f1844d;
     }
 }
