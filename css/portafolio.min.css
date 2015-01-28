@@ -1,0 +1,321 @@
+a {
+    text-decoration: none
+}
+body {
+    background: #fffcf5;
+    font-family: "Open Sans";
+    font-size: 16px
+}
+figure {
+    margin: 0;
+    padding: 0
+}
+h2 {
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #333;
+}
+header {
+    background: #fffcf5;
+    text-align: center;
+    position: relative;
+}
+.about {
+    background: #fffcf5;
+    padding-top: 38px;
+    text-align: center
+}
+.about .name {
+    color: #333;
+    font-size: 1.5em
+}
+.about .image img {
+    border-radius: 2%
+}
+.about .bio {
+    width: 80%;
+    margin: 0 auto
+}
+.about .bio p {
+    color: #333;
+    text-align: center;
+    padding: .5em .8em;
+    word-wrap: break-word;
+    margin: 0 auto
+}
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    margin: 50px 0;
+    margin-left: 2.5em;
+    text-align: center;
+}
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.chart .canvas-title {
+    color: #333;
+    font-weight: bold
+}
+.contact {
+    background: #2c3e50;
+    color: #fff;
+    min-height: 300px;
+}
+.contact .phone,
+.contact .email {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.contact .phone span,
+.contact .email span {
+    font-size: 3em;
+    display: block;
+    text-align: center
+}
+.contact .phone h4,
+.contact .email h4 {
+    margin: 0
+}
+.contact .contact-media {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.contact .contact-media .facebook,
+.contact .contact-media .twitter,
+.contact .contact-media .linkedin {
+    color: #fff;
+    font-size: 3em;
+    opacity: .3;
+}
+.contact .contact-media .facebook:hover,
+.contact .contact-media .twitter:hover,
+.contact .contact-media .linkedin:hover {
+    cursor: pointer;
+    color: #fff;
+    opacity: 1;
+}
+.contact .form-contact {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+.contact .form-contact input,
+.contact .form-contact textarea {
+    border: 2px solid #e9eeee;
+    background: #fff;
+    border-radius: 2px;
+    display: block;
+    margin: .5em auto;
+    padding: .8em;
+    width: 280px;
+    color: #333;
+}
+.contact .form-contact .submit {
+    background: #1e1e1e;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    margin-bottom: .5em;
+    padding: .5em;
+    width: 200px
+}
+.contact .form-contact .submit:hover {
+    cursor: pointer;
+}
+.contact .form-contact h2 {
+    color: #fff;
+    padding: 0;
+    text-align: center
+}
+.container {
+    background: #fffcf5;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.disabled {
+    background: #ccc;
+    cursor: wait
+}
+.display-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+input:required:invalid {
+    border: none
+}
+.item {
+    display: block;
+    margin: 1em .5em 1em 1.5em
+}
+.item-info {
+    padding-left: 1.2em;
+}
+.item-info h3 {
+    color: #333;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.5em
+}
+.item-info p {
+    margin: 0;
+    color: #333
+}
+.experience .item .description {
+    padding: .5em 0
+}
+.icon {
+    color: #333;
+    display: block;
+    font-size: 1.8em;
+    font-style: normal;
+    margin-left: .5em;
+    margin-top: 2px
+}
+.line {
+    height: 2px;
+    border: .5px solid #EAEEEF;
+    background: #ecf0f1;
+    margin: 0 auto;
+    width: 90%
+}
+.menu {
+    background: #333;
+    display: none;
+    font-weight: 700;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 35px
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+.menu ul li {
+    display: block;
+    padding-left: 2em;
+}
+.menu ul li a {
+    color: #fff;
+    display: block;
+    padding: .8em;
+    text-transform: capitalize
+}
+.percent {
+    display: inline-block;
+    line-height: 110px;
+    z-index: 2;
+    width: 100%;
+    margin-left: .1em;
+    font-size: 1.2em
+}
+.percent:after {
+    content: '%'
+}
+.p-aling{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 50%;
+}
+.title {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.title h2 {
+    color: #333;
+    position: absolute;
+    top: 5px;
+    left: 1.5em
+}
+.download {
+    background: #2ecc71;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    margin-bottom: .5em;
+    padding: .3em;
+    width: 180px
+}
+@media screen and (min-width: 768px) {
+    .about {
+        padding-top: 48px;
+    }
+    .about .bio {
+        width: 90%;
+        margin: 0 auto
+    }
+    .contact {
+        display: inline-block;
+        padding-top: .5em;
+        width: 100%;
+    }
+    .contact .contact-info {
+        width: 50%;
+        display: inline-block
+    }
+    .contact .form-contact {
+        display: inline-block;
+        margin-left: 2em;
+        vertical-align: top;
+        width: auto
+    }
+    .display-menu {
+        display: none
+    }
+    .item {
+        display: inline-block;
+        margin: 0;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+        vertical-align: top;
+        width: 45%;
+    }
+    .item:nth-child(even) {
+        margin-left: 1.5em
+    }
+    .experience .item {
+        display: block;
+        width: 90%;
+        margin-left: 1.5em;
+    }
+    .experience .item .description {
+        padding: .5em 0
+    }
+    .menu {
+        background: #fffcf5;
+        display: block;
+        max-width: 100%;
+        position: fixed;
+        text-align: center;
+        top: 0;
+        width: 100%
+    }
+    .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0
+    }
+    .menu ul li {
+        display: inline-block
+    }
+    .menu ul li a {
+        color: #333;
+        display: block;
+        padding: .8em
+    }
+    .menu ul li a:hover {
+        color: #2980b9;
+    }
+}
