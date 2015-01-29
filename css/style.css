@@ -19,28 +19,37 @@ header {
     background: #fffcf5;
     text-align: center;
     position: relative;
+    padding-top: 5em;
 }
 .about {
     background: #fffcf5;
     padding-top: 38px;
-    text-align: center
+    text-align: center;
 }
 .about .name {
     color: #333;
-    font-size: 1.5em
+    font-size: 1.5em;
+    padding-bottom: 5em;
+    padding-top: 5em;
 }
 .about .image img {
-    border-radius: 2%
+    border-radius: 50%;
+    border: 2px solid #e9eeee;
 }
 .about .bio {
     width: 80%;
-    margin: 0 auto
+    margin: 0 auto;
+    padding-bottom: 5em;
+    padding-top: 5em;
 }
 .about .bio p {
-    color: #333;
+    background: #E4F1F6;
+    border-radius: 5px;
+    color: #6A7686;
     text-align: center;
     padding: .5em .8em;
     word-wrap: break-word;
+    width: 80%;
     margin: 0 auto
 }
 .chart {
@@ -89,14 +98,14 @@ header {
 }
 .contact .contact-media .facebook,
 .contact .contact-media .twitter,
-.contact .contact-media .linkedin {
+.contact .contact-media .github {
     color: #fff;
     font-size: 3em;
     opacity: .3;
 }
 .contact .contact-media .facebook:hover,
 .contact .contact-media .twitter:hover,
-.contact .contact-media .linkedin:hover {
+.contact .contact-media .github:hover {
     cursor: pointer;
     color: #fff;
     opacity: 1;
@@ -110,13 +119,13 @@ header {
 .contact .form-contact input,
 .contact .form-contact textarea {
     border: 2px solid #e9eeee;
+    color: #333;
     background: #fff;
     border-radius: 2px;
     display: block;
     margin: .5em auto;
     padding: .8em;
     width: 280px;
-    color: #333;
 }
 .contact .form-contact .submit {
     background: #e9eeee;
@@ -149,12 +158,28 @@ header {
     top: 10px;
     right: 10px
 }
+.download {
+    background: #f1844d;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    margin-bottom: .5em;
+    padding: .3em;
+    width: 180px
+}
 input:required:invalid {
     border: none
 }
 .item {
     display: block;
     margin: 1em .5em 1em 1.5em
+}
+.job {
+    border: 2px solid #DDE4E6;
+    border-radius: 2px;
+    display: block;
+    margin: 1em .5em 1em 1.5em;
+    width: 40%;
 }
 .item-info {
     padding-left: 1.2em;
@@ -183,12 +208,12 @@ input:required:invalid {
 .line {
     height: 2px;
     border: .5px solid #EAEEEF;
-    background: #ecf0f1;
+    background: #EAEEEF;
     margin: 0 auto;
     width: 90%
 }
 .menu {
-    background: #333;
+    background: #1c1e29;
     display: none;
     font-weight: 700;
     position: fixed;
@@ -239,22 +264,21 @@ input:required:invalid {
     top: 5px;
     left: 1.5em
 }
-.download {
-    background: #f1844d;
-    border: none;
-    border-radius: 2px;
-    color: #fff;
-    margin-bottom: .5em;
-    padding: .3em;
-    width: 180px
-}
+
 @media screen and (min-width: 768px) {
     .about {
         padding-top: 48px;
     }
     .about .bio {
-        width: 90%;
+        width: 80%;
         margin: 0 auto
+    }
+    .about .bio p {
+        text-align: center;
+        padding: .5em .8em;
+        word-wrap: break-word;
+        margin: 0 auto;
+        width: 80%;
     }
     .contact {
         display: inline-block;
@@ -318,4 +342,28 @@ input:required:invalid {
     .menu ul li a:hover {
         color: #f1844d;
     }
+}
+/* Work */
+
+.Work{
+    margin-top: 2em;
+}
+
+.Work-item{
+    display: inline-block;
+    margin-right: 1.8em;
+    margin-bottom: 1.8em;
+}
+
+.Work-imageContainer{
+    margin: .8em;
+    padding: .6em;
+}
+
+.Work-description{
+    font-size: 1.1em;
+    color: #333;
+    //font-style: italic;
+    font-weight: 700;
+    text-align: center;
 }

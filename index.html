@@ -7,8 +7,8 @@
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/portafolio.min.css">
-	<link rel="stylesheet" type="text/css" href="css/flaticon.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 </head>
 <body>
@@ -16,22 +16,23 @@
 			<a href="" id="show-menu" class="display-menu icon"><i class="fa fa-bars"></i></a>
 			<nav class="menu" id="menu">
 				<ul>
-					<li><a href="#education">Educación</a></li>
-					<li><a href="#experience">Experiencia</a></li>
-					<li><a href="#skills">Habilidades</a></li>
-					<li><a href="#contact">Contactame</a></li>
-					<li><button class="download" href=""><i class="fa fa-download"></i> Descargar Perfil</button></li>
+					<li><a href="#education">Education History</a></li>
+					<li><a href="#experience">Work History</a></li>
+					<li><a href="#skills">Development Skills</a></li>
+					<li><a href="#work">Portfolio</a></li>
+					<li><button class="download" href=""><i class="fa fa-download"></i> Download Profile</button></li>
 				</ul>
 			</nav>
 			<section class="about" id="about">
 				<figure class="image">
-					<img src="img/icon.png" height="122" width="auto" alt="Profile">
+					<img src="img/profile.jpg" height="180" width="auto" alt="Profile">
 				</figure>
 				<span class="name">
 					<h1>Omar Josue Regino Zuñiga</h1>
 				</span>
 				<div class="bio">
-					<p>Hola! Soy un un profesional que crea el futuro de internet.</p>
+					<p><i class="fa fa-quote-left"></i> Hola!... Soy un <strong>Backend Developer</strong>	 que crea el futuro de internet, junto con tecnologias como <strong>HTML5, CSS3, JS</strong>. <br>
+						Actualmente estoy muy interesado en aprender tecnologias como <strong>Angular JS, Mongo DB, Node JS, Pyhton, Ruby, jQuery</strong></p>
 				</div>
 			</section>
 		</header>
@@ -39,7 +40,7 @@
 			<section class="education" id="education">
 				<div class="title">
 					<span class="icon"><i class="fa fa-university"></i></span>
-					<h2>Educación</h2>
+					<h2>Education History</h2>
 					<hr class="line">
 				</div>
 				<article class="item">
@@ -82,17 +83,18 @@
 			<section class="experience" id="experience">
 				<div class="title">
 					<span class="icon"><i class="fa fa-suitcase"></i></span>
-					<h2>Experiencia Laboral</h2>
+					<h2>Work History</h2>
 					<hr class="line">
 				</div>
 				<article class="item">
 					<div class="item-info">
-						<h3>C A S (Consultoria Asesoria y Sistemas)</h3>
+
+						<h3>OldMutual S.A de C.V.</h3>
 						<p class="description">
-							Asistente de soporte Técnico
+							Analista de Soporte TI
 						</p>
 						<p>
-							<strong>Sep. 2011 - Agosto 2014</strong>
+							<strong>Dic. 2014 - Actualmente</strong>
 						</p>
 						<p>
 
@@ -115,12 +117,12 @@
 				</article>
 				<article class="item">
 					<div class="item-info">
-						<h3>OldMutual</h3>
+						<h3>C A S (Consultoria Asesoria y Sistemas)</h3>
 						<p class="description">
-							Analista de Soporte TI
+							Asistente de soporte Técnico
 						</p>
 						<p>
-							<strong>Dic. 2014 - Actualmente</strong>
+							<strong>Sep. 2011 - Agosto 2014</strong>
 						</p>
 						<p>
 
@@ -131,15 +133,15 @@
 			<section class="skills" id="skills">
 				<div class="title">
 					<span class="icon"><i class="fa fa-code"></i></span>
-					<h2>Conocimientos</h2>
+					<h2>Development Skills</h2>
 					<hr class="line">
 				</div>
 
-				<span class="chart" data-percent="10">
+				<span class="chart" data-percent="15">
 						<span class="percent"></span>
 						<span class="canvas-title">Java</span>
 				</span>
-				<span class="chart" data-percent="30">
+				<span class="chart" data-percent="45">
 						<span class="percent"></span>
 						<span class="canvas-title">JS</span>
 				</span>
@@ -164,7 +166,31 @@
 						<span class="canvas-title">SQL Server</span>
 				</span>
 			</section>
-
+			<section id="work" class="Work">
+	            <div class="title">
+					<span class="icon"><i class="fa fa-flask"></i></span>
+					<h2> Portfolio</h2>
+					<hr class="line">
+				</div>
+	            <article class="Work-item">
+	                <figure class="Work-imageContainer">
+	                    <img class="Work-image" src="img/icon.png" height="150" width="auto" alt="Simulador Ceneval">
+	                    <figcaption class="Work-description">Simulador CENEVAL</figcaption>
+	                </figure>
+	            </article>
+	            <article class="Work-item">
+	                <figure class="Work-imageContainer">
+	                    <img class="Work-image" src="img/icon.png"  alt="Web Site CAS">
+	                    <figcaption class="Work-description">Web Site CAS</figcaption>
+	                </figure>
+	            </article>
+	            <article class="Work-item">
+	                <figure class="Work-imageContainer">
+	                    <img class="Work-image" src="img/icon.png" alt="CV Personal">
+	                    <figcaption class="Work-description">Deploy en GitHub Pages</figcaption>
+	                </figure>
+	            </article>
+        </section>
 		</div>
 		<section class="contact" id="contact">
 			<div class="contact-info">
@@ -173,7 +199,7 @@
 					<h4>(+52) 771-180-1336</h4>
 				</div>
 				<div class="email">
-					<span class=""><i class="fa fa-envelope-o"></i></span>
+					<span class=""><i class="fa fa-at"></i></span>
 					<h4>
 						omarjrz21@gmail.com
 					</h4>
@@ -183,15 +209,15 @@
 						<i class="fa fa-facebook-official"></i>
 					</a>
 					<a class="twitter" href="https://www.twitter.com/" target="_blank">
-						<i class="fa fa-twitter-square"></i>
+						<i class="fa fa-twitter"></i>
 					</a>
-					<a class="linkedin " href="https://www.github.com/omaar" target="_blank">
-						<i class="fa fa-github-square"></i>
+					<a class="github " href="https://www.github.com/omaar" target="_blank">
+						<i class="fa fa-github"></i>
 					</a>
 				</div>
 			</div>
 			<form id="form-contact" class="form-contact">
-				<h2>Contacto</h2>
+				<h2>Drop me a Line...</h2>
 				<input type="text" id="name" placeholder="Nombre..."  required>
 				<input type="email" id="email" placeholder="Email" required>
 				<textarea placeholder="Tu Mensaje..." id="message" required></textarea>

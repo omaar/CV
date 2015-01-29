@@ -1,4 +1,5 @@
 (function(){
+
 	var $menu 	 = $("#menu"),
 		$button  = $("#show-menu"),
 		$a 		 = $("#menu ul li a"),
@@ -20,6 +21,7 @@
 		$chart.easyPieChart({
 			easing: 'easeOutBounce',
 			barColor:  '#f1844d',
+			scaleColor: '#333',
 			onStep: function(from, to, percent) {
 				$(this.el).find('.percent').text(Math.round(percent));
 			}
