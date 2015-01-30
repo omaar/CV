@@ -4,7 +4,7 @@
 		$button  = $("#show-menu"),
 		$a 		 = $("#menu ul li a"),
 		$chart 	 = $(".chart");
-
+	var $doc 	 = $(".download");
 		$(".submit").attr('disabled', 'disabled');
 
 		function ShowMenu(e){
@@ -16,8 +16,13 @@
 			$menu.slideToggle();
 		}
 
+		function downDoc(){
+			document.location.href='http://www.google.com.mx';//CVOmarRegino.docx
+		}
+
 		$button.on('click', ShowMenu);
 		$a.on('click', ShowLink);
+		$doc.on('click', downDoc);
 		$chart.easyPieChart({
 			easing: 'easeOutBounce',
 			barColor:  '#f1844d',
