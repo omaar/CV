@@ -155,7 +155,7 @@ header {
     cursor: wait
 }
 .display-menu {
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 10px
 }
@@ -198,6 +198,9 @@ input:required:invalid {
 .experience .item .description {
     padding: .5em 0
 }
+//.experience-container{
+//  padding-left: 2em;
+//}
 .icon {
     color: #333;
     display: block;
@@ -205,6 +208,14 @@ input:required:invalid {
     font-style: normal;
     margin-left: .5em;
     margin-top: 2px
+}
+.icon-m {
+  color: #333;
+  display: block;
+  font-size: 1em;
+  font-style: normal;
+  margin-left: .5em;
+  margin-top: 2px
 }
 .line {
     height: 2px;
@@ -368,16 +379,19 @@ input:required:invalid {
     padding-left: 2em;
 }
 
-
-
 .Work-imageContainer{
     margin: .8em;
     padding: .6em;
 }
-
+.Work-image{
+  width: 110px;
+  height: auto;
+  padding-left: 15%;
+}
 .Work-description{
     font-size: 1.1em;
     color: #333;
     font-weight: 700;
     text-align: center;
+    width:100%;
 }
