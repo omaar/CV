@@ -17,7 +17,7 @@
 		}
 
 		function downDoc(){
-			document.location.href='http://www.google.com.mx';//CVOmarRegino.docx
+			document.location.href='CVOmarRegino.docx';//
 		}
 
 		$button.on('click', ShowMenu);

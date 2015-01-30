@@ -1,3 +1,39 @@
+commit 3e21ce45c544a9b8bd9c8ae3cbdc29703490d796
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Thu Jan 29 22:31:08 2015 -0600
+
+    Version 4, cambia estilo menu, y alineación de las secciones
+
+commit a3fcee8be8dd4e16bf4667b1148937f8111bcf9c
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Wed Jan 28 22:33:22 2015 -0600
+
+    Agrego CV
+
+commit f3506e7772978b3ea18f4274172a421bc7a4fd47
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Wed Jan 28 22:13:47 2015 -0600
+
+    Se cambio el tamaño de las graficas de 110px a 100px
+
+commit 40f3bb379dd96383112b927bab2e29cc7e74847e
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Wed Jan 28 22:00:56 2015 -0600
+
+    Version 3 de portafolio
+
+commit 0a6521f0f25ae313644a9ba8e4db347393decb78
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Wed Jan 28 00:14:00 2015 -0600
+
+    Se corrigio error del menu en moviles
+
+commit e84e359c5a76997f75954e803fe3a053cdb0826b
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Tue Jan 27 23:59:36 2015 -0600
+
+    Color de link en el menu
+
 commit 29c265a6f585e6a79f94cc8a5ee9bb8c2e5eafcf
 Author: Omar Regino <omarjrz21@gmail.com>
 Date:   Tue Jan 27 23:50:21 2015 -0600
