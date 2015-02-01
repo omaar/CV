@@ -1,3 +1,33 @@
+commit 6fa54803db26006f411646d8cc472ee2a2cb2ae8
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Sun Feb 1 13:48:39 2015 -0600
+
+    Agregado
+
+commit bca2664124b642764d50f2d0eb77e5dcd5b6e6e7
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Sat Jan 31 17:52:25 2015 -0600
+
+    Se agrega animación en los links del menu
+
+commit 7de1436a6973524c04c2a7cba3e1eadab5b723f6
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Thu Jan 29 23:45:13 2015 -0600
+
+    Se agrefa icono de favoritos
+
+commit e21779c01e8ba909588ca2567130f2309365e3f3
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Thu Jan 29 23:37:36 2015 -0600
+
+    Se cambian imagenes de portafolio
+
+commit ffa003e88f7fab63801412208f1c48b26cd4ca81
+Author: Omar Regino <omarjrz21@gmail.com>
+Date:   Thu Jan 29 22:48:34 2015 -0600
+
+    Agrega link para descarga de CV
+
 commit 3e21ce45c544a9b8bd9c8ae3cbdc29703490d796
 Author: Omar Regino <omarjrz21@gmail.com>
 Date:   Thu Jan 29 22:31:08 2015 -0600
