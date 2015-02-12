@@ -17,7 +17,7 @@
 		}
 
 		function downDoc(){
-			document.location.href='CVOmarRegino.docx';//
+			document.location.href='CVOmarJosueReginoZuniga.docx';//
 		}
 
 		$button.on('click', ShowMenu);
