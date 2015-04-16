@@ -25,7 +25,7 @@
 			</nav>
 			<section class="about" id="about">
 				<figure class="image">
-					<img src="img/photo.jpg" height="180" width="auto" alt="Profile">
+					<img src="img/profile.jpg" height="180" width="auto" alt="Profile">
 				</figure>
 				<span class="name">
 					<h1>Omar Josue Regino Zuñiga</h1>
