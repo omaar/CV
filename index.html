@@ -28,7 +28,10 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    
+    <style>
+        .she { display: none;  }
+    </style>
 </head>
 
 <body id="page-top" class="index">
@@ -44,22 +47,30 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Omar Regino</a>
+                <div class="me">
+                    <a class="navbar-brand" href="#page-top">Omar Regino</a>
+                </div>
+                <div class="she">
+                    <span class="navbar-brand">Buenos dias 
+                      <span class="typer" id="name" data-words="mi duraznito!,mi cielo!" data-colors="white" data-delay="100" data-deleteDelay="1000" data-cursorDisplay="|"></span>
+                      <span class="cursor" data-owner="name"></span>
+                    </span>
+                </div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse me" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="page-scroll">
+                    <li class="page-scroll me">
                         <a href="#portfolio">Proyectos</a>
                     </li>
-                    <li class="page-scroll">
+                    <li class="page-scroll me">
                         <a href="#about">Yo...</a>
                     </li>
-                    <li class="page-scroll">
+                    <li class="page-scroll me">
                         <a href="#contact">Contactame</a>
                     </li>
                 </ul>
@@ -74,11 +85,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive circle" src="img/photo.jpg" alt="">
-                    <div class="intro-text">
+                    <div class="me">
+                        <img class="img-responsive circle" src="img/photo.jpg" alt="">
+                    </div>
+                    <div class="she">
+                        <img class="img-responsive circle" src="img/lp/4.jpg" alt="">
+                    </div>
+                    <div id="photo" class="intro-text me">
                         <span class="name">Omar Josue Regino Zuñiga</span>
                         <hr class="star-light">
                         <span class="skills">Hack·er, Web Developer y Pseudo Musico</span>
+                    </div>
+                    <div id="photo" class="intro-text she">
+                            <span class="name" id="words">Felices 6 meses mi amor!! ❤</span>
+                        <hr class="star-light">
+                        <span class="typer skills" id="subwords" data-words="Esta era la sopresa que te tenia preparada... 😘, Algo sencilla pero solo tú sabes como poder ver esta pequeña sorpresa..." data-colors="white" data-delay="100" data-deleteDelay="1000"></span>
+                          <span class="cursor skills" data-owner="subwords" data-cursorDisplay="|"></span>
                     </div>
                 </div>
             </div>
@@ -86,7 +108,7 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section id="portfolio" class="me">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -159,16 +181,98 @@
         </div>
     </section>
 
+    <section id="portfolio" class="she">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>6 Momentos ❤</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-heart fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="height: 230px;" src="img/lp/1.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-heart fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="height: 230px;" src="img/lp/2.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-heart fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="height: 230px;" src="img/lp/3.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-heart fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="height: 230px;" src="img/lp/4.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-heart fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="height: 230px;" src="img/lp/5.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-heart fa-3x"></i>
+                            </div>
+                        </div>
+                        <img style="height: 230px;" src="img/lp/6.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About Section -->
     <section class="success" id="about">
         <div class="csection.success a:hover,ontainer">
-            <div class="row">
+            <div class="row me">
                 <div class="col-lg-12 text-center">
                     <h2>Yo...</h2>
                     <hr class="star-light">
                 </div>
             </div>
-            <div class="row">
+            
+            <div class="row she">
+                <div class="col-lg-12 text-center">
+                    <h2>Para...</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+
+            <div class="row me">
                 <div class="col-lg-4 col-lg-offset-2">
                     <h1>Hola!...</h1>
                 </div>
@@ -181,11 +285,29 @@
                     </a>
                 </div>
             </div>
+
+            <div class="row she">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <h1>Lupita </h1>
+                </div>
+                <div class="col-lg-4">
+                    <p>
+                        <i class="fa fa-quote-left"></i>
+                        Amor espero te guste este pequeño detalle, que hice con todo mi amor y solo para ti, quiero que sepas que te <strong>amo</strong> profundamente tal y como eres y siempre que pueda te lo hare saber.
+                    </p>
+                    <p>Quiero seguir disfrutando la vida a tu lado y nunca te fallare, quiero que sigamos creciendo y madurando como pareja, somos un equipo y estoy para apoyarte en todo lo que pueda.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        TE AMO <i class="fa fa-heart"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="me">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -277,7 +399,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Devops 2015
+                        Copyright &copy; Omar 2018
                     </div>
                 </div>
             </div>
@@ -303,7 +425,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                        <div class="modal-body me">
                             <h2>GitHub Deployment</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/desk-1.png" class="img-responsive img-centered" alt="">
@@ -324,6 +446,14 @@
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
+
+                        <div class="modal-body she">
+                            <h2>Nuestra primer foto</h2>
+                            <hr class="star-primary">
+                            <img src="img/lp/1.jpg" style="height: 280px;" class="img-responsive img-centered" alt="">
+                            <p>Esta fue la primer foto que recuerdo tenemos juntos, tu la tomaste, recuerdo que ese día estuvimos platicando toda la tarde afura de tu casa por que yo (como siempre) no me queria ir y aun tenia que ir a dejar el auto de mi hermana. Pero valio la pena cada minuto el estar contigo.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -340,7 +470,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                        <div class="modal-body me">
                             <h2>Sitio Web Empresarial</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/desk-2.png" class="img-responsive img-centered" alt="">
@@ -361,6 +491,14 @@
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
+
+                        <div class="modal-body she">
+                            <h2>Besame mucho guapo!</h2>
+                            <hr class="star-primary">
+                            <img src="img/lp/2.jpg" class="img-responsive img-centered" alt="">
+                            <p>Este es de los recuerdos mas bonitos que tengo contigo! Recuerdo que ese domingo no nos vimos y cada quien fue a votar, ambos nos mandamos fotos de nuestros dedos ya marcado, pero tu encontraste la forma de hacer ese momento inovidable!</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -377,7 +515,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                        <div class="modal-body me">
                             <h2>Simulador de examen de CENEVAL</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/desk-3.png" class="img-responsive img-centered" alt="">
@@ -398,6 +536,14 @@
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
+
+                        <div class="modal-body she">
+                            <h2>Paquitos!</h2>
+                            <hr class="star-primary">
+                            <img src="img/lp/3.jpg" class="img-responsive img-centered" alt="">
+                            <p>Aunque ahorita ya esta todo mugroso mi paquito lo sigo amando con toda mi alma, el dia que me regalaste esa pulsera de paquito quedara grabado en mi memoria para siempre, ademas de que fue cuando cumpliamos 4 meses de estar juntos. Tengo tanto miendo de perder ese paquito como de perderte a ti y lo cuidare lo seguire cuidando lo mejor que pueda.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -414,7 +560,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                        <div class="modal-body me">
                             <h2>Chat Real Time</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/desk-4.png" class="img-responsive img-centered" alt="">
@@ -435,6 +581,14 @@
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
+
+                        <div class="modal-body she">
+                            <h2>Felices pre 26</h2>
+                            <hr class="star-primary">
+                            <img src="img/lp/4.jpg" class="img-responsive img-centered" alt="">
+                            <p>El dia de tu pre-cumpleaños, es uno de los dias que mas feliz te eh visto y deseo que seas siempre feliz como ese dia, por que como una vez te dije "mientras yo siga viendo una sonrisa en tu rostro, sabre que todo esta bien".</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -451,7 +605,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                        <div class="modal-body me">
                             <h2>MVP Cheluber</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/beerloader.gif" class="img-responsive img-centered" alt="">
@@ -472,6 +626,14 @@
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
+
+                        <div class="modal-body she">
+                            <h2>AJUAA!</h2>
+                            <hr class="star-primary">
+                            <img src="img/lp/5.jpeg" class="img-responsive img-centered" alt="">
+                            <p>Jajaja ese dia estuvo genial, mas por el como es que podria yo lucir si en realidad tuviera bigote.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -488,7 +650,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                        <div class="modal-body me">
                             <h2>Sitio Exhibidores Roldan</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/desk-5.png" class="img-responsive img-centered" alt="">
@@ -507,6 +669,14 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+
+                        <div class="modal-body she">
+                            <h2>Vaya aventura...!</h2>
+                            <hr class="star-primary">
+                            <img src="img/lp/6.jpg" class="img-responsive img-centered" alt="">
+                            <p>"Tsss se te olvido tu cambio", apesar de todo lo ocurrido ese dia que fuimos a Puebla, me gusto mucho que estuvieramos juntos en todo y muchas gracias amor por no abandonarme y aguantar todo el viaje, otra razon mas por la que te amo.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
                     </div>
@@ -530,6 +700,8 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
     <!-- Custom Theme JavaScript -->
+    <script src="js/typer.js"></script>
+
     <script src="js/freelancer.js"></script>
 
 </body>
