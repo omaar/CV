@@ -38,6 +38,9 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 var keySequence = [
+	// 9,
+	// 4,
+	// 18
     'l',
     'u',
     // 'p',
