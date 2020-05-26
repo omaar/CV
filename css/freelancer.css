@@ -297,8 +297,26 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #88D498;
+    color: #2C2934;
     background: #fff;
+}
+
+.btn-primary {
+    margin-top: 15px;
+    border: solid 2px #2C2934;
+    font-size: 20px;
+    color: #2C2934;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    border: solid 2px #2C2934;
+    color: #fff;
+    background: #2C2934;
 }
 
 .floating-label-form-group {
